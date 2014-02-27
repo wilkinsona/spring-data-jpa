@@ -5,7 +5,7 @@
 
 	<groupId>org.springframework.data</groupId>
 	<artifactId>spring-data-jpa</artifactId>
-	<version>1.6.0.BUILD-SNAPSHOT</version>
+	<version>1.6.0.DEPENDENCIES</version>
 
 	<name>Spring Data JPA</name>
 	<description>Spring Data module for JPA repositories.</description>
@@ -14,7 +14,7 @@
 	<parent>
 		<groupId>org.springframework.data.build</groupId>
 		<artifactId>spring-data-parent</artifactId>
-		<version>1.4.0.BUILD-SNAPSHOT</version>
+		<version>1.4.0.DEPENDENCIES</version>
 		<relativePath>../spring-data-build/parent/pom.xml</relativePath>
 	</parent>
 
@@ -23,11 +23,11 @@
 		<dist.key>DATAJPA</dist.key>
 
 		<eclipselink>2.5.1</eclipselink>
-		<hibernate>3.6.10.Final</hibernate>
+		<hibernate>4.3.1.Final</hibernate>
 		<hsqldb1>1.8.0.10</hsqldb1>
 		<jpa>2.0.0</jpa>
-		<openjpa>2.2.1</openjpa>
-		<springdata.commons>1.8.0.BUILD-SNAPSHOT</springdata.commons>
+		<openjpa>2.3.0</openjpa>
+		<springdata.commons>1.8.0.DEPENDENCIES</springdata.commons>
 
 		<sonar.dynamicAnalysis>reuseReports</sonar.dynamicAnalysis>
 
@@ -126,7 +126,7 @@
 		<dependency>
 			<groupId>org.hsqldb</groupId>
 			<artifactId>hsqldb</artifactId>
-			<version>2.2.8</version>
+			<version>2.3.2</version>
 			<scope>test</scope>
 		</dependency>
 
@@ -197,8 +197,8 @@
 
 		<dependency>
 			<groupId>javax.el</groupId>
-			<artifactId>el-api</artifactId>
-			<version>${cdi}</version>
+			<artifactId>javax.el-api</artifactId>
+			<version>2.2.5</version>
 			<scope>test</scope>
 		</dependency>
 
@@ -211,8 +211,8 @@
 
 		<dependency>
 			<groupId>javax.servlet</groupId>
-			<artifactId>servlet-api</artifactId>
-			<version>2.5</version>
+			<artifactId>javax.servlet-api</artifactId>
+			<version>3.0.1</version>
 			<scope>test</scope>
 		</dependency>
 
